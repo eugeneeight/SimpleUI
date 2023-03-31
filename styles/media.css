@@ -1,9 +1,9 @@
 @media screen and (max-width: 1440px) {
-    .faq-card-box {
+    ..faq-card-box {
         justify-content: center;
     }
 
-    .award-card-box {
+    ..award-card-box {
         justify-content: space-evenly;
     }
 }

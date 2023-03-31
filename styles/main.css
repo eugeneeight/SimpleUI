@@ -6,14 +6,14 @@ body {
     overflow-x:hidden;
 }
 
-.container {
+..container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 135px;
     position: relative;
 }
 
-.btn {
+..btn {
     padding: 13px 34px;
     background: #4579cb;
     border-radius: 8px;
@@ -21,7 +21,7 @@ body {
     font-weight: 700;
 }
 
-.nav-logo {
+..nav-logo {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -29,19 +29,19 @@ body {
     color: #4579cb;
 }
 
-.header-nav {
+..header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
 }
 
-.nav-bar__list {
+..nav-bar__list {
     display: flex;
     column-gap: 40px;
 }
 
-.nav-bar__link {
+..nav-bar__link {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -49,7 +49,7 @@ body {
     color: #666;
 }
 
-.hero {
+..hero {
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
@@ -60,21 +60,21 @@ body {
     margin-right: auto;
 }
 
-.hero-title {
+..hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 78px;
     /* or 139% */
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0..02em;
     color: #474747;
 }
 
-.hero span {
+..hero span {
     color: #4579cb;
 }
 
-.sub-title__text {
+..sub-title__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -85,14 +85,14 @@ body {
     margin: 0 auto;
 }
 
-.sub-title__container {
+..sub-title__container {
     padding: 38px 0px;
     text-align: center;
 }
 
 
 
-.youtube-container {
+..youtube-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,11 +100,11 @@ body {
     column-gap: 11px;
 }
 
-.youtube-link {
+..youtube-link {
     text-decoration: underline !important;
 }
 
-.wave {
+..wave {
     position: absolute;
     z-index: -1;
     top: 240px;
@@ -112,7 +112,7 @@ body {
     right: 0;
 }
 
-.div {
+..div {
     padding: 13px 34px;
     background-color: #4579cb;
     max-width: 170px;
@@ -120,7 +120,7 @@ body {
     margin: 0 auto;
 }
 
-.div a {
+..div a {
     color: #fff;
     font-weight: 700;
     font-size: 16px;
@@ -129,12 +129,12 @@ body {
 
 
 
-.trusted {
+..trusted {
     margin-top: 114px;
     margin-bottom: 114px;
 }
 
-.trusted-title {
+..trusted-title {
     text-align: center;
     font-weight: 700;
     font-size: 26px;
@@ -142,7 +142,7 @@ body {
     color: #474747;
 }
 
-.subtitle-text {
+..subtitle-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -152,14 +152,14 @@ body {
     margin: 0px auto 44px auto;
 }
 
-.partner-logo {
+..partner-logo {
     display: flex;
     justify-content: space-between;
     column-gap: 0px;
     margin: 0 calc(-50vw + 50%);
 }
 
-.radio-btn {
+..radio-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,32 +167,32 @@ body {
     margin-top: 23px;
 }
 
-.dot {
+..dot {
     border-radius: 99px;
     width: 16px;
     height: 16px;
     background-color: #e6e6e6;
 }
 
-.dot-active {
+..dot-active {
     width: 20px;
     height: 20px;
     background-color: #4579cb;
 }
 
-.dot:not(.dot-active):hover {
-    opacity: .9;
+..dot:not(..dot-active):hover {
+    opacity: ..9;
     background-color: #4579cb;
     cursor: pointer;
 }
 
-.second-part-first {
+..second-part-first {
     max-width: 558px;
     padding-left: 0px;
 }
 
 
-.first {
+..first {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +201,7 @@ body {
     margin: 0 auto 120px auto;
 }
 
-.first-title {
+..first-title {
     font-weight: 700;
     font-size: 26px;
     line-height: 48px;
@@ -210,12 +210,12 @@ body {
     max-width: 558px;
 }
 
-.subtitle-first {
+..subtitle-first {
     margin-top: 24px;
     margin-bottom: 30px;
 }
 
-.subtitle-text-first {
+..subtitle-text-first {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -223,17 +223,17 @@ body {
     text-align: left;
 }
 
-.div-first {
+..div-first {
     margin-left: 0px;
 }
 
-.second {
+..second {
     display: flex;
     align-items: center;
     column-gap: 44px;
 }
 
-.second-title {
+..second-title {
     font-weight: 700;
     font-size: 26px;
     line-height: 48px;
@@ -241,21 +241,21 @@ body {
     text-align: left;
 }
 
-.subtitle-text-second {
+..subtitle-text-second {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
 
-.second-first-part {
+..second-first-part {
     max-width: 558px;
 }
 
-.max-width {
+..max-width {
     max-width: 527px;
 }
 
-.third {
+..third {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,17 +265,17 @@ body {
     margin: 120px auto 0 auto;
 }
 
-.img-size {
+..img-size {
     width: 615px;
     height: 423px;
 }
 
-.why {
+..why {
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
-.title-why {
+..title-why {
     text-align: center;
     font-weight: 700;
     font-size: 26px;
@@ -283,12 +283,12 @@ body {
     color: #474747;
 }
 
-.subtitle-why {
+..subtitle-why {
     max-width: 743px;
     margin: 24px auto 51px auto;
 }
 
-.subtitle-text-why {
+..subtitle-text-why {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
@@ -296,14 +296,14 @@ body {
     color: #666;
 }
 
-.card-box {
+..card-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
 
-.card {
+..card {
     background: #F6F7FD;
     border-radius: 8px;
     width: 270px;
@@ -312,11 +312,11 @@ body {
     padding-top: 31px;
 }
 
-.card-image {
+..card-image {
     margin-bottom: 13px;
 }
 
-.card-title {
+..card-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -324,7 +324,7 @@ body {
     margin-bottom: 12px;
 }
 
-.card-text {
+..card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -337,7 +337,7 @@ body {
 }
 
 
-.feedback {
+..feedback {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,7 +345,7 @@ body {
     margin-bottom: 120px;
 }
 
-.name {
+..name {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -353,7 +353,7 @@ body {
     margin-bottom: 4px;
 }
 
-.job {
+..job {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -361,7 +361,7 @@ body {
     margin-bottom: 19px;
 }
 
-.feedback-bold {
+..feedback-bold {
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -369,16 +369,16 @@ body {
     margin-bottom: 34px;
 }
 
-.feedback-text {
+..feedback-text {
     max-width: 547px;
 }
 
-.arrow-btn {
+..arrow-btn {
     display: flex;
     column-gap: 30px;
 }
 
-.left {
+..left {
     background: #E6E6E6;
     border-radius: 4px;
     width: 70px;
@@ -387,7 +387,7 @@ body {
     
 }
 
-.right {
+..right {
     background: #4579cb;
     border-radius: 4px;
     width: 70px;
@@ -395,30 +395,30 @@ body {
     position: relative;
 }
 
-.arrow-center {
+..arrow-center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
-.image-div {
+..image-div {
     position: relative;
 }
 
-.dotted {
+..dotted {
     position: absolute;
     z-index: -1;
     top: 35%;
     left: -115px;
 }
 
-.about {
+..about {
     margin-bottom: 120px;
 }
 
 
-.title-about {
+..title-about {
     font-weight: 700;
     font-size: 26px;
     line-height: 48px;
@@ -433,7 +433,7 @@ body {
 margin-bottom: 24px;
 }
 
-.subtitle-text-about {
+..subtitle-text-about {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -447,19 +447,19 @@ margin-bottom: 24px;
     margin-bottom: 59px;
 }
 
-.video-card {
+..video-card {
     display: flex;
     column-gap: 29px;
 }
 
 
 
-.video-card-image {
+..video-card-image {
     border-radius: 30px;
-    box-shadow: drop-shadow 10px 10px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: drop-shadow 10px 10px 10px rgba(0, 0, 0, 0..25);
 }
 
-.faq-title {
+..faq-title {
     font-weight: 700;
     font-size: 26px;
     line-height: 48px;
@@ -473,7 +473,7 @@ margin-bottom: 24px;
     margin-bottom: 24px;
 }
 
-.faq-subtitle {
+..faq-subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -488,14 +488,14 @@ margin-bottom: 24px;
     margin: 0px auto 52px auto;
 }
 
-.faq-card-box {
+..faq-card-box {
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 33px;
 }
 
-.faq-card-item {
+..faq-card-item {
     /* color / 7 */
 
     background: #FFFFFF;
@@ -515,7 +515,7 @@ margin-bottom: 24px;
 
 
 
-.card-text-faq {
+..card-text-faq {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -527,12 +527,12 @@ margin-bottom: 24px;
     color: #8C8C8C;
 }
 
-.faq {
+..faq {
     margin-bottom: 120px;
 }
 
 
-.award-title {
+..award-title {
     font-weight: 700;
     font-size: 26px;
     line-height: 48px;
@@ -545,7 +545,7 @@ margin-bottom: 24px;
     color: #474747;
 }
 
-.award-subtitle {
+..award-subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -560,7 +560,7 @@ margin-bottom: 24px;
     margin: 0 auto 42px auto;
 }
 
-.award-card-box {
+..award-card-box {
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
@@ -568,7 +568,7 @@ margin-bottom: 24px;
     
 }
 
-.award-card-item {
+..award-card-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -579,11 +579,11 @@ margin-bottom: 24px;
     width: 170px;
     height: 239px;
     padding-top: 15px;
-    box-shadow: 10px 10px 15px 0px rgba(254, 241, 241, 0.25);
+    box-shadow: 10px 10px 15px 0px rgba(254, 241, 241, 0..25);
     
 }
 
-.award-card-title {
+..award-card-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -598,7 +598,7 @@ margin-bottom: 24px;
     margin-top: 9px;
 }
 
-.award-card-text {
+..award-card-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -614,15 +614,15 @@ margin-bottom: 24px;
 }
 
 
-.awrd-image {
+..awrd-image {
     padding-top: 15px;
 }
 
-.award {
+..award {
     margin-bottom: 120px;
 }
 
-.subs-title {
+..subs-title {
     font-weight: 700;
     font-size: 26px;
     line-height: 48px;
@@ -636,7 +636,7 @@ margin-bottom: 24px;
     margin-bottom: 24px;
 }
 
-.subs-subtitle {
+..subs-subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -651,7 +651,7 @@ margin-bottom: 24px;
     margin: 0 auto 33px auto;
 }
 
-.form-container {
+..form-container {
     background: #E6E6E6;
     border-radius: 16px;
     width: 770px;
@@ -662,39 +662,39 @@ margin-bottom: 24px;
 }
 
 
-.subs-form {
+..subs-form {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.add-email {
+..add-email {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
     left: 34px;
 }
 
-.btn-form {
+..btn-form {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
     right: 19px;
 }
 
-.footer {
+..footer {
     background-color: #4579CB;
     padding-top: 28px;
     padding-bottom: 40px;
 }
 
-.footer-container {
+..footer-container {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.footer-title-big {
+..footer-title-big {
     font-weight: 700;
     font-size: 26px;
     line-height: 48px;
@@ -708,7 +708,7 @@ margin-bottom: 24px;
     align-items: end;
 }
 
-.footer-title {
+..footer-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 28px;
@@ -722,7 +722,7 @@ margin-bottom: 24px;
     margin-bottom: 31px;
 }
 
-.footer-text {
+..footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -733,31 +733,31 @@ margin-bottom: 24px;
     max-width: 278px;
 }
 
-.nav-menu-list {
+..nav-menu-list {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
 }
 
-.nav-menu-link {
+..nav-menu-link {
     color: #fff !important;
 }
 
-.contact-a {
+..contact-a {
     display: flex;
     column-gap: 18px;
     align-items: start;
 }
 
-.margin8 {
+..margin8 {
     margin-top: 8px;
 }
 
-.margin30 {
+..margin30 {
     margin-top: 30px;
 }
 
-.img {
+..img {
     width: 100%;
     height: 100%;
 }
